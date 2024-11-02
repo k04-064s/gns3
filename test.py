@@ -36,7 +36,7 @@ def main():
     user_id = get_user_id()
     ip = get_ip_address()
     mac = get_mac_address()
-    ip_list = ['8.8.8.8', '192.168.1.1']  # Add relevant IPs to ping
+    ip_list = ['8.8.8.8','google.com', '192.168.122.1','10.1.1.2','10.1.3.2','10.1.2.2']  # Add relevant IPs to ping
     connectivity_results = check_connectivity(ip_list)
     log_results(user_id, ip, mac, connectivity_results)
 
